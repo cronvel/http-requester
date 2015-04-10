@@ -6,7 +6,11 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "terminal-kit": "^0.9.14",
+    "tree-kit": "^0.5.0"
+  },
   "devDependencies": {
     "expect.js": "^0.3.1",
     "jshint": "^2.5.6",
