@@ -1,0 +1,31 @@
+{
+  "name": "http-requester",
+  "version": "0.0.0",
+  "description": "Work in progress...",
+  "main": "lib/httpRequester.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "jshint": "^2.5.6",
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/http-requester.git"
+  },
+  "keywords": [
+    "http",
+    "requester"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/http-requester/issues"
+  }
+}
