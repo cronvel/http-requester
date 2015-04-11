@@ -1,6 +1,6 @@
 {
   "name": "http-requester",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Work in progress...",
   "main": "lib/httpRequester.js",
   "directories": {
