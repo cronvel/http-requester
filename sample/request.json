@@ -1,0 +1,10 @@
+{
+	"method": "GET",
+	"hostname": "localhost",
+	"path": "/toto",
+	"port": 8080,
+	"body": {
+		"id": "ae7803f71",
+		"content": "Hello World!"
+	}
+}
