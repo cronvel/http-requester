@@ -2,7 +2,7 @@
 
 # HTTP Requester
 
-Perform HTTP request like a boss!
+Perform HTTP requests like a boss!
 A command line utility that supports HTTP, HTTPS, Websocket and server creation.
 
 Ideal for testing and debugging.

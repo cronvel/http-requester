@@ -1,7 +1,7 @@
 {
   "name": "http-requester",
   "version": "0.2.1",
-  "description": "Perform HTTP request like a boss! A command line utility that supports HTTP, HTTPS, Websocket and server creation. Ideal for testing and debugging.",
+  "description": "Perform HTTP requests like a boss! A command line utility that supports HTTP, HTTPS, Websocket and server creation. Ideal for testing and debugging.",
   "main": "lib/httpRequester.js",
   "directories": {
     "test": "test"
