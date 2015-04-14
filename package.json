@@ -1,10 +1,13 @@
 {
   "name": "http-requester",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Perform HTTP requests like a boss! A command line utility that supports HTTP, HTTPS, Websocket and server creation. Ideal for testing and debugging.",
   "main": "lib/httpRequester.js",
   "directories": {
     "test": "test"
+  },
+  "bin": {
+    "http-requester": "./bin/http-requester"
   },
   "dependencies": {
     "async-kit": "^0.5.8",
