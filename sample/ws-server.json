@@ -5,6 +5,19 @@
 	"responses": [
 		{
 			"match": {
+				"connect": true,
+				"path": "/noway"
+			} ,
+			"close": true
+		} ,
+		{
+			"match": {
+				"connect": true
+			} ,
+			"message": "Welcome!"
+		} ,
+		{
+			"match": {
 				"message": "hello"
 			} ,
 			"message": "World!"
@@ -19,10 +32,12 @@
 			"match": {
 				"message": ""
 			} ,
-			"message": "end"
+			"message": "end",
+			"close": true
 		}
 	] ,
 	"default-response": {
-		"message": "Sure!"
+		"message": "Bye!",
+		"close": true
 	}
 }
