@@ -31,7 +31,7 @@
 			"body": "There is no place like 127.0.0.1"
 		}
 	] ,
-	"defaultResponse": {
+	"default-response": {
 		"status": 404 ,
 		"headers": {
 		} ,

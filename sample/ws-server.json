@@ -1,0 +1,28 @@
+{
+	"server": true ,
+	"protocol": "ws" ,
+	"port": 8080 ,
+	"responses": [
+		{
+			"match": {
+				"message": "hello"
+			} ,
+			"message": "World!"
+		} ,
+		{
+			"match": {
+				"message": "toto"
+			} ,
+			"message": "Toto!"
+		} ,
+		{
+			"match": {
+				"message": ""
+			} ,
+			"message": "end"
+		}
+	] ,
+	"default-response": {
+		"message": "Sure!"
+	}
+}

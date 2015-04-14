@@ -1,7 +1,7 @@
 {
   "name": "http-requester",
-  "version": "0.1.0",
-  "description": "Work in progress...",
+  "version": "0.2.0",
+  "description": "Perform HTTP request like a boss! A command line utility that supports HTTP, HTTPS, Websocket and server creation. Ideal for testing and debugging.",
   "main": "lib/httpRequester.js",
   "directories": {
     "test": "test"
@@ -9,9 +9,10 @@
   "dependencies": {
     "async-kit": "^0.5.8",
     "minimist": "^1.1.1",
-    "server-kit": "^0.2.0",
+    "server-kit": "^0.2.2",
     "terminal-kit": "^0.9.14",
-    "tree-kit": "^0.5.0"
+    "tree-kit": "^0.5.0",
+    "ws": "^0.7.1"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
@@ -26,8 +27,14 @@
     "url": "https://github.com/cronvel/http-requester.git"
   },
   "keywords": [
+    "cli",
+    "command line",
     "http",
-    "requester"
+    "https",
+    "ws",
+    "request",
+    "requester",
+    "server"
   ],
   "author": "Cédric Ronvel",
   "license": "MIT",

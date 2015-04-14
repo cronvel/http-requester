@@ -1,0 +1,21 @@
+{
+	"protocol": "ws",
+	"hostname": "localhost",
+	"path": "/toto",
+	"port": 8080,
+	"messages": [
+		{
+			"message": "hello"
+		} ,
+		{
+			"message": "how are you?"
+		} ,
+		{
+			"message": ""
+		}
+	] ,
+	"close-match": {
+		"message": "end",
+		"count": 3
+	}
+}
