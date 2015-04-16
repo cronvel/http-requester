@@ -1,5 +1,5 @@
 {
-	"method": "GET",
+	"method": "POST",
 	"hostname": "localhost",
 	"path": "/toto",
 	"port": 8080,
