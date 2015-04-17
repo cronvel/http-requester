@@ -5,6 +5,8 @@
 Perform HTTP requests like a boss!
 A command line utility that supports HTTP, HTTPS, Websocket and server creation.
 
+It features a cool interactive shell.
+
 Ideal for testing and debugging.
 
 * License: MIT
@@ -15,6 +17,7 @@ Ideal for testing and debugging.
 Available options:
 
 * --help, -h: display help
+* --shell: run requests in an interactive shell, like a boss!
 * --method <method>: set the HTTP method
 * --protocol http|https|ws: set the protocol, 'http', 'https' or 'ws'
 * --host <host>: set the targeted host
@@ -25,6 +28,8 @@ Available options:
   If it is not conflicting with another options, it can be used without prefix,
   like --content-type application/json
 * --headers <json string>: specify all headers using the JSON format
+* --auth "<user>:<password>": basic authentication i.e. "user:password" to compute an Authorization header
+* --timeout <ms>: set the request timeout in ms
 * --output <file>, -o <file>: if given, the body's response will be written to this file instead of STDOUT
 * --http: shortcut for --protocol http
 * --https: shortcut for --protocol https
