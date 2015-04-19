@@ -69,6 +69,8 @@ npm install -g http-requester
 * **request** *or* **req**
 
 	Perform the request.
+	
+	E.g.: `> http://localhost:8080/blog/index.html`
 
 * &lt;protocol&gt;://&lt;host&gt;[:&lt;port&gt;][/&lt;path&gt;]
 
@@ -77,6 +79,8 @@ npm install -g http-requester
 * **host** &lt;hostname&gt;[:&lt;port&gt;]
 
 	Set the host and port to connect to.
+
+	E.g.: `> host localhost:8080`
 
 * **port** &lt;port&gt;
 
@@ -94,15 +98,19 @@ npm install -g http-requester
 
 	Set the URL's path part to request.
 
+	E.g.: `> path /blog/index.html`
+
 * headers.&lt;header&gt; &lt;value&gt;
 
 	Set a HTTP header.
-	E.g.: `> headers.Content-type: text/html`.
+	
+	E.g.: `> headers.Content-type: text/html`
 
 * &lt;header&gt;: &lt;value&gt;
 
 	The shortest way to set a HTTP header.
-	E.g.: `> Content-type: text/html`.
+	
+	E.g.: `> Content-type: text/html`
 
 * **auth** &lt;user&gt;:&lt;password&gt;
 
@@ -131,6 +139,8 @@ npm install -g http-requester
 * **cd** &lt;path&gt;
 
 	Modify the path the way a normal 'cd' command does.
+
+	E.g.: `> cd blog` , `> cd ..` , `> cd ../../blog/index.html` , `> cd /index.html` , ...
 
 
 
