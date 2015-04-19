@@ -34,6 +34,12 @@ npm install -g http-requester
 
 
 
+### *“Like a boss? Screenshot please!”*
+
+![Screenshot](https://raw.githubusercontent.com/cronvel/http-requester/master/screenshot1.png)
+
+
+
 ### Available command line options:
 
 * Without any argument, it runs the interactive shell
