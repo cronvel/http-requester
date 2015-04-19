@@ -56,35 +56,35 @@ Available interactive shell commands:
 	List the details of the request about to be performed.
 * request or req
 	Perform the request.
-* <protocol>://<host>[:<port>][/<path>]
+* &lt;protocol&gt;://&lt;host&gt;[:&lt;port&gt;][/&lt;path&gt;]
 	Parse the full URL and set the protocol, host, port and path.
-* host <hostname>[:<port>]
+* host &lt;hostname&gt;[:&lt;port&gt;]
 	Set the host and port to connect to.
-* port <port>
+* port &lt;port&gt;
 	Set the port to connect to.
 * protocol http|https|ws
 	Set the protocol to use.
-* method <HTTP method>
+* method &lt;HTTP method&gt;
 	Set the HTTP method.
-* path <URL path>
+* path &lt;URL path&gt;
 	Set the URL's path part to request.
-* headers.<header> <value>
+* headers.&lt;header&gt; &lt;value&gt;
 	Set a HTTP header.
-* <header>: <value>
+* &lt;header&gt;: &lt;value&gt;
 	The shortest way to set a HTTP header.
-* auth <user>:<password>
+* auth &lt;user&gt;:&lt;password&gt;
 	Basic authentication to compute an Authorization header.
-* body <body string>
+* body &lt;body string&gt;
 	Set the body of the request.
 * body
 	Set the body of the request, using the multi-line mode.
-* timeout <ms>
+* timeout &lt;ms&gt;
 	Set the request timeout in ms.
 * clear [headers|body]
 	Clear headers or body, without argument: clear both.
 * autoclear [headers|body]
 	Autoclear headers or body after each request, without argument: just check.
-* cd <path>
+* cd &lt;path&gt;
 	Modify the path the way a normal 'cd' command does.
 
 
