@@ -53,39 +53,73 @@ Available command line options:
 Available interactive shell commands:
 
 * ls
+
 	List the details of the request about to be performed.
+
 * request or req
+
 	Perform the request.
+
 * &lt;protocol&gt;://&lt;host&gt;[:&lt;port&gt;][/&lt;path&gt;]
+
 	Parse the full URL and set the protocol, host, port and path.
+
 * host &lt;hostname&gt;[:&lt;port&gt;]
+
 	Set the host and port to connect to.
+
 * port &lt;port&gt;
+
 	Set the port to connect to.
+
 * protocol http|https|ws
+
 	Set the protocol to use.
+
 * method &lt;HTTP method&gt;
+
 	Set the HTTP method.
+
 * path &lt;URL path&gt;
+
 	Set the URL's path part to request.
+
 * headers.&lt;header&gt; &lt;value&gt;
+
 	Set a HTTP header.
+
 * &lt;header&gt;: &lt;value&gt;
+
 	The shortest way to set a HTTP header.
+
 * auth &lt;user&gt;:&lt;password&gt;
+
 	Basic authentication to compute an Authorization header.
+
 * body &lt;body string&gt;
+
 	Set the body of the request.
+
 * body
+
 	Set the body of the request, using the multi-line mode.
+
 * timeout &lt;ms&gt;
+
 	Set the request timeout in ms.
+
 * clear [headers|body]
+
 	Clear headers or body, without argument: clear both.
+
 * autoclear [headers|body]
+
 	Autoclear headers or body after each request, without argument: just check.
+
 * cd &lt;path&gt;
+
 	Modify the path the way a normal 'cd' command does.
+
 
 
 
