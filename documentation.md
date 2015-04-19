@@ -70,11 +70,11 @@ npm install -g http-requester
 
 	Perform the request.
 	
-	E.g.: `> http://localhost:8080/blog/index.html`
-
 * &lt;protocol&gt;://&lt;host&gt;[:&lt;port&gt;][/&lt;path&gt;]
 
 	Parse the full URL and set the protocol, host, port and path.
+
+	E.g.: `> http://localhost:8080/blog/index.html`
 
 * **host** &lt;hostname&gt;[:&lt;port&gt;]
 
