@@ -2,7 +2,7 @@
 
 # HTTP Requester
 
-Perform HTTP requests like a boss!
+Perform HTTP & WS requests like a boss!
 A command line utility that supports HTTP, HTTPS, Websocket and server creation.
 
 It features a cool interactive shell.
@@ -14,10 +14,20 @@ Ideal for testing and debugging.
 
 
 
-Available options:
+Feature highlights:
 
+* HTTP, HTTPS and Websocket requests
+* Dummy HTTP and Websocket server creation
+* A cool interactive shell with history and auto-completion (even headers)
+* An interactive Websocket Chatter
+
+
+
+Available command line options:
+
+* Without any argument, it runs the interactive shell
 * --help, -h: display help
-* --shell: run requests in an interactive shell, like a boss!
+* --shell: run requests in an interactive shell, *like a boss!*
 * --method <method>: set the HTTP method
 * --protocol http|https|ws: set the protocol, 'http', 'https' or 'ws'
 * --host <host>: set the targeted host
@@ -36,5 +46,27 @@ Available options:
 * --ws: shortcut for --protocol ws
 * --server: start a server
 * --config <file>: a JSON file containing all the above options, structured in an object
+
+
+
+Available interactive shell commands:
+
+```
+ls                                     List the details of the request about to be performed.
+request or req                         Perform the request.
+<protocol>://<host>[:<port>][/<path>]  Parse the full URL and set the protocol, host, port and path.
+host <hostname>[:<port>]               Set the host and port to connect to.
+port <port>                            Set the port to connect to.
+protocol http|https|ws                 Set the protocol to use.
+method <HTTP method>                   Set the HTTP method.
+path <URL path>                        Set the URL's path part to request.
+headers.<header> <value>               Set a HTTP header.
+<header>: <value>                      The shortest way to set a HTTP header.
+auth <user>:<password>                 Basic authentication to compute an Authorization header.
+body <body string>                     Set the body of the request.
+body                                   Set the body of the request, using the multi-line mode.
+timeout <ms>                           Set the request timeout in ms.
+```
+
 
 
