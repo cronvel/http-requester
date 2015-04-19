@@ -3,6 +3,7 @@
 # HTTP Requester
 
 Perform HTTP & WS requests like a boss!
+
 A command line utility that supports HTTP, HTTPS, Websocket and server creation.
 
 It features a cool interactive shell.
@@ -66,6 +67,8 @@ auth <user>:<password>                 Basic authentication to compute an Author
 body <body string>                     Set the body of the request.
 body                                   Set the body of the request, using the multi-line mode.
 timeout <ms>                           Set the request timeout in ms.
+clear [headers|body]                   Clear headers or body, without argument: clear both.
+autoclear [headers|body]               Autoclear headers or body after each request, without argument: just check.
 ```
 
 
