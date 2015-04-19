@@ -52,25 +52,40 @@ Available command line options:
 
 Available interactive shell commands:
 
-```
-ls                                     List the details of the request about to be performed.
-request or req                         Perform the request.
-<protocol>://<host>[:<port>][/<path>]  Parse the full URL and set the protocol, host, port and path.
-host <hostname>[:<port>]               Set the host and port to connect to.
-port <port>                            Set the port to connect to.
-protocol http|https|ws                 Set the protocol to use.
-method <HTTP method>                   Set the HTTP method.
-path <URL path>                        Set the URL's path part to request.
-headers.<header> <value>               Set a HTTP header.
-<header>: <value>                      The shortest way to set a HTTP header.
-auth <user>:<password>                 Basic authentication to compute an Authorization header.
-body <body string>                     Set the body of the request.
-body                                   Set the body of the request, using the multi-line mode.
-timeout <ms>                           Set the request timeout in ms.
-clear [headers|body]                   Clear headers or body, without argument: clear both.
-autoclear [headers|body]               Autoclear headers or body after each request, without argument: just check.
-cd <path>                              Modify the path the way a normal 'cd' command does.
-```
+* ls
+	List the details of the request about to be performed.
+* request or req
+	Perform the request.
+* <protocol>://<host>[:<port>][/<path>]
+	Parse the full URL and set the protocol, host, port and path.
+* host <hostname>[:<port>]
+	Set the host and port to connect to.
+* port <port>
+	Set the port to connect to.
+* protocol http|https|ws
+	Set the protocol to use.
+* method <HTTP method>
+	Set the HTTP method.
+* path <URL path>
+	Set the URL's path part to request.
+* headers.<header> <value>
+	Set a HTTP header.
+* <header>: <value>
+	The shortest way to set a HTTP header.
+* auth <user>:<password>
+	Basic authentication to compute an Authorization header.
+* body <body string>
+	Set the body of the request.
+* body
+	Set the body of the request, using the multi-line mode.
+* timeout <ms>
+	Set the request timeout in ms.
+* clear [headers|body]
+	Clear headers or body, without argument: clear both.
+* autoclear [headers|body]
+	Autoclear headers or body after each request, without argument: just check.
+* cd <path>
+	Modify the path the way a normal 'cd' command does.
 
 
 
