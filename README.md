@@ -15,7 +15,17 @@ Ideal for testing and debugging.
 
 
 
-Feature highlights:
+### Install
+
+Do not forget to install it **globally**:
+
+```
+npm install -g http-requester
+```
+
+
+
+### Feature highlights:
 
 * HTTP, HTTPS and Websocket requests
 * Dummy HTTP and Websocket server creation
@@ -24,7 +34,7 @@ Feature highlights:
 
 
 
-Available command line options:
+### Available command line options:
 
 * Without any argument, it runs the interactive shell
 * --help, -h: display help
@@ -50,42 +60,88 @@ Available command line options:
 
 
 
-Available interactive shell commands:
+### Available interactive shell commands:
 
-* ls
+* **ls**
+
 	List the details of the request about to be performed.
-* request or req
+
+* **request** *or* **req**
+
 	Perform the request.
-* <protocol>://<host>[:<port>][/<path>]
+	
+* &lt;protocol&gt;://&lt;host&gt;[:&lt;port&gt;][/&lt;path&gt;]
+
 	Parse the full URL and set the protocol, host, port and path.
-* host <hostname>[:<port>]
+
+	E.g.: `> http://localhost:8080/blog/index.html`
+
+* **host** &lt;hostname&gt;[:&lt;port&gt;]
+
 	Set the host and port to connect to.
-* port <port>
+
+	E.g.: `> host localhost:8080`
+
+* **port** &lt;port&gt;
+
 	Set the port to connect to.
-* protocol http|https|ws
+
+* **protocol** http|https|ws
+
 	Set the protocol to use.
-* method <HTTP method>
+
+* **method** &lt;HTTP method&gt;
+
 	Set the HTTP method.
-* path <URL path>
+
+* **path** &lt;URL path&gt;
+
 	Set the URL's path part to request.
-* headers.<header> <value>
+
+	E.g.: `> path /blog/index.html`
+
+* headers.&lt;header&gt; &lt;value&gt;
+
 	Set a HTTP header.
-* <header>: <value>
+	
+	E.g.: `> headers.Content-type: text/html`
+
+* &lt;header&gt;: &lt;value&gt;
+
 	The shortest way to set a HTTP header.
-* auth <user>:<password>
+	
+	E.g.: `> Content-type: text/html`
+
+* **auth** &lt;user&gt;:&lt;password&gt;
+
 	Basic authentication to compute an Authorization header.
-* body <body string>
+
+* **body** &lt;body string&gt;
+
 	Set the body of the request.
-* body
+
+* **body**
+
 	Set the body of the request, using the multi-line mode.
-* timeout <ms>
+
+* **timeout** &lt;ms&gt;
+
 	Set the request timeout in ms.
-* clear [headers|body]
+
+* **clear** [headers|body]
+
 	Clear headers or body, without argument: clear both.
-* autoclear [headers|body]
+
+* **autoclear** [headers|body]
+
 	Autoclear headers or body after each request, without argument: just check.
-* cd <path>
+
+* **cd** &lt;path&gt;
+
 	Modify the path the way a normal 'cd' command does.
+
+	E.g.: `> cd blog` , `> cd ..` , `> cd ../../blog/index.html` , `> cd /index.html` , ...
+
 
 
 

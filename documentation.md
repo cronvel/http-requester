@@ -120,7 +120,7 @@ npm install -g http-requester
 
 	Set the body of the request.
 
-* body
+* **body**
 
 	Set the body of the request, using the multi-line mode.
 
