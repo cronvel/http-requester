@@ -15,7 +15,17 @@ Ideal for testing and debugging.
 
 
 
-Feature highlights:
+### Install
+
+Do not forget to install it **globally**:
+
+```
+npm install -g http-requester
+```
+
+
+
+### Feature highlights:
 
 * HTTP, HTTPS and Websocket requests
 * Dummy HTTP and Websocket server creation
@@ -24,7 +34,7 @@ Feature highlights:
 
 
 
-Available command line options:
+### Available command line options:
 
 * Without any argument, it runs the interactive shell
 * --help, -h: display help
@@ -50,13 +60,13 @@ Available command line options:
 
 
 
-Available interactive shell commands:
+### Available interactive shell commands:
 
-* ls
+* **ls**
 
 	List the details of the request about to be performed.
 
-* request or req
+* **request** *or* **req**
 
 	Perform the request.
 
@@ -64,39 +74,41 @@ Available interactive shell commands:
 
 	Parse the full URL and set the protocol, host, port and path.
 
-* host &lt;hostname&gt;[:&lt;port&gt;]
+* **host** &lt;hostname&gt;[:&lt;port&gt;]
 
 	Set the host and port to connect to.
 
-* port &lt;port&gt;
+* **port** &lt;port&gt;
 
 	Set the port to connect to.
 
-* protocol http|https|ws
+* **protocol** http|https|ws
 
 	Set the protocol to use.
 
-* method &lt;HTTP method&gt;
+* **method** &lt;HTTP method&gt;
 
 	Set the HTTP method.
 
-* path &lt;URL path&gt;
+* **path** &lt;URL path&gt;
 
 	Set the URL's path part to request.
 
 * headers.&lt;header&gt; &lt;value&gt;
 
 	Set a HTTP header.
+	E.g.: `> headers.Content-type: text/html`.
 
 * &lt;header&gt;: &lt;value&gt;
 
 	The shortest way to set a HTTP header.
+	E.g.: `> Content-type: text/html`.
 
-* auth &lt;user&gt;:&lt;password&gt;
+* **auth** &lt;user&gt;:&lt;password&gt;
 
 	Basic authentication to compute an Authorization header.
 
-* body &lt;body string&gt;
+* **body** &lt;body string&gt;
 
 	Set the body of the request.
 
@@ -104,19 +116,19 @@ Available interactive shell commands:
 
 	Set the body of the request, using the multi-line mode.
 
-* timeout &lt;ms&gt;
+* **timeout** &lt;ms&gt;
 
 	Set the request timeout in ms.
 
-* clear [headers|body]
+* **clear** [headers|body]
 
 	Clear headers or body, without argument: clear both.
 
-* autoclear [headers|body]
+* **autoclear** [headers|body]
 
 	Autoclear headers or body after each request, without argument: just check.
 
-* cd &lt;path&gt;
+* **cd** &lt;path&gt;
 
 	Modify the path the way a normal 'cd' command does.
 
