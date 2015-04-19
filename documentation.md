@@ -69,6 +69,7 @@ body                                   Set the body of the request, using the mu
 timeout <ms>                           Set the request timeout in ms.
 clear [headers|body]                   Clear headers or body, without argument: clear both.
 autoclear [headers|body]               Autoclear headers or body after each request, without argument: just check.
+cd <path>                              Modify the path the way a normal 'cd' command does.
 ```
 
 
