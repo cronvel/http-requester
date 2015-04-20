@@ -64,6 +64,13 @@ npm install -g http-requester
 * --server: start a server
 * --config <file>: a JSON file containing all the above options, structured in an object
 
+**Syntactic sugar:**
+
+* `http-requester` launch the interactive shell, like `http-requester --shell`
+* `http-requester <file>` load a config file, like `http-requester --config <file>`
+* `http-requester <url>` GET the url, like `http-requester --method get --url <url>`
+* `http-requester <method> <url>` request the url, like `http-requester --method <method> --url <url>`
+
 
 
 ### Available interactive shell commands:
