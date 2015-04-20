@@ -134,13 +134,13 @@ npm install -g http-requester
 
 	Set the request timeout in ms.
 
-* **clear** [headers|body]
+* **clear** [headers|auth|body]
 
-	Clear headers or body, without argument: clear both.
+	Clear headers, auth or body, without argument: clear both.
 
-* **autoclear** [headers|body]
+* **autoclear** [headers|auth|body]
 
-	Autoclear headers or body after each request, without argument: just check.
+	Autoclear headers, auth or body after each request, without argument: just check.
 
 * **cd** &lt;path&gt;
 
