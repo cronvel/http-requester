@@ -1,6 +1,6 @@
 {
   "name": "http-requester",
-  "version": "0.4.11",
+  "version": "0.4.13",
   "description": "Perform HTTP & WS requests like a boss! A command line utility that supports HTTP, HTTPS, Websocket and server creation, featuring a cool interactive shell. Ideal for testing and debugging.",
   "main": "lib/httpRequester.js",
   "directories": {
@@ -13,7 +13,7 @@
     "async-kit": "^0.5.8",
     "minimist": "^1.1.1",
     "server-kit": "^0.2.5",
-    "terminal-kit": "^0.11.3",
+    "terminal-kit": "^0.12.0",
     "tree-kit": "^0.5.0",
     "ws": "^0.7.1"
   },
