@@ -13,7 +13,7 @@
     "async-kit": "^0.5.8",
     "minimist": "^1.1.1",
     "server-kit": "^0.2.5",
-    "terminal-kit": "^0.13.13",
+    "terminal-kit": "^0.13.14",
     "tree-kit": "^0.5.0",
     "ws": "^0.7.1"
   },
