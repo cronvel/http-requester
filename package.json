@@ -10,11 +10,11 @@
     "http-requester": "./bin/http-requester"
   },
   "dependencies": {
-    "async-kit": "^0.5.8",
+    "async-kit": "^0.5.9",
     "minimist": "^1.1.1",
     "server-kit": "^0.2.5",
-    "terminal-kit": "^0.13.14",
-    "tree-kit": "^0.5.0",
+    "terminal-kit": "^0.13.16",
+    "tree-kit": "^0.5.5",
     "ws": "^0.7.1"
   },
   "devDependencies": {
