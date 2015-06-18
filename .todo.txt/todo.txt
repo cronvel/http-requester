@@ -1,3 +1,4 @@
 (B) proxy/man-in-the-middle mode: client and server at the same time @idea
 (A) redirect to 'Location' header with a yes/no prompt @code
 (A) auto cookie @code
+(A) request time code

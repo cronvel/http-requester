@@ -61,6 +61,7 @@ npm install -g http-requester
 * --http: shortcut for --protocol http
 * --https: shortcut for --protocol https
 * --ws: shortcut for --protocol ws
+* --beautify, -b: beautify JSON body
 * --server: start a server
 * --config <file>: a JSON file containing all the above options, structured in an object
 
@@ -148,6 +149,14 @@ npm install -g http-requester
 * **autoclear** [headers|auth|body]
 
 	Autoclear headers, auth or body after each request, without argument: just check.
+
+* **autocookie**
+
+	Turn autocookie on/off.
+
+* **beautify**
+
+	Turn beautify on/off for JSON body.
 
 * **cd** &lt;path&gt;
 
