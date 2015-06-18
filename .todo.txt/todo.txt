@@ -1,5 +1,4 @@
 (D) proxy/man-in-the-middle mode: client and server at the same time @idea
-(A) redirect to 'Location' header with a yes/no prompt @code
 (B) better auto cookie: store cookies for each domain+path, send the the relevant cookie for the domain+path @code
 (A) request time @code
 (C) beautify a lot of Content-Type, format and syntax hilighting

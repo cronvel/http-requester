@@ -1,1 +1,2 @@
 x 2015-06-18 auto-complete: TAB = cycle @code
+x 2015-06-18 redirect to 'Location' header with a yes/no prompt @code
