@@ -1,8 +1,7 @@
 (D) proxy/man-in-the-middle mode: client and server at the same time @idea
-x 2015-06-18 redirect to 'Location' header with a yes/no prompt @code
 (B) better auto cookie: store cookies for each domain+path, send the the relevant cookie for the domain+path @code
-(A) request time @code
+x 2015-08-07 request time @code
 (C) beautify a lot of Content-Type, format and syntax hilighting
 (C) JSON explorer (view, edit, fold and unfold children)
 (C) Form URL encode
-(C) @shell: Use default port when entering an URL without port
+x 2015-08-07 @shell: Use default port when entering an URL without port
