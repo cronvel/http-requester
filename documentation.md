@@ -76,7 +76,7 @@ npm install -g http-requester
 
 ### Available interactive shell commands:
 
-* **ls**
+* **show** *or* **s**
 
 	List the details of the request about to be performed.
 
@@ -163,6 +163,10 @@ npm install -g http-requester
 	Modify the path the way a normal 'cd' command does.
 
 	E.g.: `> cd blog` , `> cd ..` , `> cd ../../blog/index.html` , `> cd /index.html` , ...
+
+* **ls**
+
+	List all known sub-resources of the current path, just like the UNIX 'ls' command.
 
 
 
