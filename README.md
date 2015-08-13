@@ -108,11 +108,20 @@ npm install -g http-requester
 
 	Set the HTTP method.
 
-* **path** &lt;URL path&gt;
+* **cd** &lt;path&gt;
 
-	Set the URL's path part to request.
+	Modify the path just like the shell 'cd' command does.
+	Start the path with a '/' to set the absolute path, otherwise it moves relative to the current path.
+	It does **NOT** modify the query-string part of the URL.
 
-	E.g.: `> path /blog/index.html`
+	E.g.: `> cd blog` , `> cd ..` , `> cd ../../blog/index.html` , `> cd /index.html` , ...
+
+* **?** &lt;query string&gt;
+
+	Set the query string part of the URL.
+	Use a single `?` alone to erase the query string.
+
+	E.g.: `> ?` , `> ?key=value` , `> ?key1=value1&key2=value2` , ...
 
 * headers.&lt;header&gt; &lt;value&gt;
 
@@ -158,15 +167,9 @@ npm install -g http-requester
 
 	Turn beautify on/off for JSON body.
 
-* **cd** &lt;path&gt;
-
-	Modify the path the way a normal 'cd' command does.
-
-	E.g.: `> cd blog` , `> cd ..` , `> cd ../../blog/index.html` , `> cd /index.html` , ...
-
 * **ls**
 
-	List all known sub-resources of the current path, just like the UNIX 'ls' command.
+	List all known sub-resources of the current path, just like the UNIX 'ls' command does.
 
 
 
