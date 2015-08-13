@@ -3,6 +3,5 @@
 (C) beautify a lot of Content-Type, format and syntax hilighting
 (C) JSON explorer (view, edit, fold and unfold children)
 (C) Form URL encode
-x 2015-08-12 history! @code
 (C) Makefile-like local extension/module: ease your webservice coding by adding specific feature in your app directory! @code
-(A) path completion @code
+x 2015-08-13 path completion @code

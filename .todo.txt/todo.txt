@@ -4,4 +4,3 @@
 (C) JSON explorer (view, edit, fold and unfold children)
 (C) Form URL encode
 (C) Makefile-like local extension/module: ease your webservice coding by adding specific feature in your app directory! @code
-(A) path completion @code

@@ -3,3 +3,4 @@ x 2015-06-18 redirect to 'Location' header with a yes/no prompt @code
 x 2015-08-07 request time @code
 x 2015-08-07 @shell: Use default port when entering an URL without port
 x 2015-08-12 history! @code
+x 2015-08-13 path completion @code
