@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "async-kit": "^0.5.10",
-    "kung-fig": "^0.3.0",
+    "kung-fig": "^0.3.4",
     "minimist": "^1.1.1",
     "osenv": "^0.1.3",
     "server-kit": "^0.2.5",
