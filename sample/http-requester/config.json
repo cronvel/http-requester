@@ -1,0 +1,9 @@
+{
+	"beautify": true ,
+	"shellConfig": {
+		"autoclear": {
+			"body": false
+		} ,
+		"@module": "module.js"
+	}
+}

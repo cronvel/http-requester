@@ -1,0 +1,12 @@
+{
+	"method": "GET",
+	"hostname": "localhost",
+	"path": "/toto",
+	"port": 8080,
+	"headers": {
+		"Connection": "Upgrade",
+		"Upgrade": "websocket",
+		"Origin": "localhost:8080"
+		
+	}
+}
