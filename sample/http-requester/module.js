@@ -48,7 +48,12 @@ commands.hello = function hello( args , query , callback )
 commands.google = function google( args , query , callback )
 {
 	api.emulate( 'https://google.com/' , function() {
-		api.emulate( 'get' , callback ) ;
+		api.emulate( 'get' , function() {
+			var response = api.lastResponse() ;
+			api.term.red( 'Got response status %s\n' , response.status ) ;
+			api.term.yellow( 'Got body:\n%s\n' , response.body ) ;
+			callback() ;
+		} ) ;
 	} ) ;
 } ;
 
