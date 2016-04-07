@@ -1,6 +1,6 @@
 {
   "name": "http-requester",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "engines": {
     "node": ">=4.0.0"
   },
@@ -16,11 +16,11 @@
     "async-kit": "^0.6.9",
     "kung-fig": "^0.6.1",
     "minimist": "^1.2.0",
-    "ne": "0.0.21",
+    "ne": "0.0.23",
     "osenv": "^0.1.3",
-    "server-kit": "^0.2.30",
-    "terminal-kit": "^0.23.1",
-    "tree-kit": "^0.5.12",
+    "server-kit": "^0.2.31",
+    "terminal-kit": "^0.24.1",
+    "tree-kit": "^0.5.18",
     "ws": "^1.0.1"
   },
   "devDependencies": {
