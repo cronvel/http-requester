@@ -1,8 +1,8 @@
 {
   "name": "http-requester",
-  "version": "0.11.7",
+  "version": "0.12.0",
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=4.5.0"
   },
   "description": "Perform HTTP & WS requests like a boss! A command line utility that supports HTTP, HTTPS, Websocket and server creation, featuring a cool interactive shell. Ideal for testing and debugging.",
   "main": "lib/httpRequester.js",
@@ -13,13 +13,14 @@
     "http-requester": "./bin/http-requester"
   },
   "dependencies": {
-    "async-kit": "^2.1.6",
-    "kung-fig": "^0.26.8",
+    "async-kit": "^2.2.0",
+    "jshint": "^2.9.4",
+    "kung-fig": "^0.34.0",
     "minimist": "^1.2.0",
     "ne": "0.0.23",
     "osenv": "^0.1.3",
-    "server-kit": "^0.2.40",
-    "terminal-kit": "^0.24.26",
+    "server-kit": "^0.3.0",
+    "terminal-kit": "^0.25.0",
     "tree-kit": "^0.5.26",
     "ws": "^1.1.1"
   },
@@ -29,7 +30,7 @@
     "mocha": "^2.4.5"
   },
   "scripts": {
-    "test": "mocha -R dot"
+    "test": "tea-time -R dot"
   },
   "repository": {
     "type": "git",
