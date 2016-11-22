@@ -1,6 +1,6 @@
 {
   "name": "http-requester",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "engines": {
     "node": ">=4.5.0"
   },
@@ -13,21 +13,21 @@
     "http-requester": "./bin/http-requester"
   },
   "dependencies": {
-    "async-kit": "^2.2.0",
+    "async-kit": "^2.2.3",
     "jshint": "^2.9.4",
-    "kung-fig": "^0.34.0",
+    "kung-fig": "^0.34.7",
     "minimist": "^1.2.0",
     "ne": "0.0.23",
     "osenv": "^0.1.3",
-    "server-kit": "^0.3.0",
-    "terminal-kit": "^0.25.0",
+    "server-kit": "^0.3.1",
+    "terminal-kit": "^0.25.2",
     "tree-kit": "^0.5.26",
     "ws": "^1.1.1"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
     "jshint": "^2.9.2",
-    "mocha": "^2.4.5"
+    "mocha": "^3.1.2"
   },
   "scripts": {
     "test": "tea-time -R dot"
