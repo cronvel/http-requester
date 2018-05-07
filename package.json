@@ -1,6 +1,6 @@
 {
   "name": "http-requester",
-  "version": "0.12.8",
+  "version": "0.12.9",
   "engines": {
     "node": ">=4.5.0"
   },
