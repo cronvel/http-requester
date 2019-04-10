@@ -13,19 +13,16 @@
     "http-requester": "./bin/http-requester"
   },
   "dependencies": {
-    "async-kit": "^2.2.3",
-    "kung-fig": "^0.45.3",
+    "async-kit": "^2.2.4",
+    "kung-fig": "^0.51.0",
     "minimist": "^1.2.0",
-    "ne": "0.0.26",
     "osenv": "^0.1.5",
-    "server-kit": "^0.5.1",
-    "terminal-kit": "^1.15.1",
-    "tree-kit": "^0.5.26",
-    "ws": "^5.1.1"
+    "server-kit": "^0.9.8",
+    "terminal-kit": "^1.27.2",
+    "tree-kit": "^0.6.1",
+    "ws": "^6.2.1"
   },
-  "devDependencies": {
-    "expect.js": "^0.3.1"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "tea-time -R dot"
   },
@@ -55,7 +52,7 @@
     "title": "HTTP Requester",
     "years": [
       2015,
-      2018
+      2019
     ],
     "owner": "Cédric Ronvel"
   }

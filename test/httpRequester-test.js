@@ -1,7 +1,7 @@
 /*
 	HTTP Requester
 
-	Copyright (c) 2015 - 2018 Cédric Ronvel
+	Copyright (c) 2015 - 2019 Cédric Ronvel
 
 	The MIT License (MIT)
 
@@ -30,7 +30,6 @@
 
 
 var httpRequester = require( '../lib/httpRequester.js' ) ;
-var expect = require( 'expect.js' ) ;
 
 
 
