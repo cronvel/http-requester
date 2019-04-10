@@ -13,10 +13,10 @@
     "http-requester": "./bin/http-requester"
   },
   "dependencies": {
-    "async-kit": "^2.2.4",
     "fs-kit": "^0.3.2",
     "kung-fig": "^0.51.0",
     "server-kit": "^0.9.8",
+    "seventh": "^0.7.18",
     "terminal-kit": "^1.27.3",
     "tree-kit": "^0.6.1",
     "utterminal": "^0.5.32",
