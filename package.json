@@ -14,12 +14,12 @@
   },
   "dependencies": {
     "async-kit": "^2.2.4",
+    "fs-kit": "^0.3.2",
     "kung-fig": "^0.51.0",
-    "minimist": "^1.2.0",
-    "osenv": "^0.1.5",
     "server-kit": "^0.9.8",
-    "terminal-kit": "^1.27.2",
+    "terminal-kit": "^1.27.3",
     "tree-kit": "^0.6.1",
+    "utterminal": "^0.5.32",
     "ws": "^6.2.1"
   },
   "devDependencies": {},
