@@ -1,0 +1,5 @@
+beautify: yes
+shellConfig:
+	autoclear:
+		body: no
+	module: @module.js

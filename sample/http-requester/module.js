@@ -32,47 +32,35 @@ var api ;
 
 exports.name = 'sample module' ;
 
-exports.init = function init( api_ ) { api = api_ ; } ;
+exports.init = function( api_ ) { api = api_ ; } ;
 
 var commands = exports.commands = {} ;
 
 
-commands.hello = function hello( args , query , callback )
-{
+commands.hello = function( args , query ) {
 	api.term( '^bHellow ^R%s^b!^:\n' , args[ 0 ] ) ;
-	callback() ;
 } ;
 
 
 
-commands.google = function google( args , query , callback )
-{
-	api.emulate( 'https://google.com/' , function() {
-		api.emulate( 'get' , function() {
-			var response = api.lastResponse() ;
-			
-			if ( response )
-			{
-				api.term.red( 'Got response status %s\n' , response.status ) ;
-				api.term.yellow( 'Got body:\n%s\n' , response.body ) ;
-			}
-			
-			callback() ;
-		} ) ;
-	} ) ;
+commands.google = async function( args , query ) {
+	await api.emulate( 'https://google.com/' ) ;
+	await api.emulate( 'get' ) ;
+	
+	var response = api.lastResponse() ;
+	
+	if ( response ) {
+		api.term.red( 'Got response status %s\n' , response.status ) ;
+		api.term.yellow( 'Got body:\n%s\n' , response.body ) ;
+	}
 } ;
 
 
 
-commands.google2 = function google2( args , query , callback )
-{
-	api.emulate( [
-			'https://google.com/' ,
-			'get'
-		] ,
-		callback
-	) ;
+commands.google2 = function( args , query ) {
+	return api.emulate( [
+		'https://google.com/' ,
+		'get'
+	] ) ;
 } ;
-
-
 
