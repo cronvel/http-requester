@@ -1,6 +1,6 @@
 {
   "name": "http-requester",
-  "version": "0.12.14",
+  "version": "0.13.0",
   "engines": {
     "node": ">=4.5.0"
   },
@@ -13,7 +13,6 @@
     "http-requester": "./bin/http-requester"
   },
   "dependencies": {
-    "async-kit": "^2.2.4",
     "fs-kit": "^0.3.2",
     "kung-fig": "^0.51.0",
     "server-kit": "^0.9.8",
