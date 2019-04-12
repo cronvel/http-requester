@@ -7,6 +7,5 @@
 		"Connection": "Upgrade",
 		"Upgrade": "websocket",
 		"Origin": "localhost:8080"
-		
 	}
 }

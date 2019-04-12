@@ -1,5 +1,4 @@
 beautify: yes
-shellConfig:
-	autoclear:
-		body: no
-	module: @module.js
+autoclear:
+	body: no
+module: @module.js
