@@ -37,13 +37,13 @@ exports.init = function( api_ ) { api = api_ ; } ;
 var commands = exports.commands = {} ;
 
 
-commands.hello = function( args , query ) {
+commands.hello = function( args ) {
 	api.term( '^bHellow ^R%s^b!^:\n' , args[ 0 ] ) ;
 } ;
 
 
 
-commands.google = async function( args , query ) {
+commands.google = async function( args ) {
 	await api.emulate( 'https://google.com/' ) ;
 	await api.emulate( 'get' ) ;
 	
@@ -57,7 +57,7 @@ commands.google = async function( args , query ) {
 
 
 
-commands.google2 = function( args , query ) {
+commands.google2 = function( args ) {
 	return api.emulate( [
 		'https://google.com/' ,
 		'get'

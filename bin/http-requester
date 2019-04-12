@@ -1,3 +1,2 @@
 #!/usr/bin/env node
-
-require( '../lib/httpRequester.js' ).cli() ;
+require( '../lib/cli.js' )() ;
