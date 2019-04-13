@@ -5,7 +5,7 @@
     "node": ">=4.5.0"
   },
   "description": "Perform HTTP & WS requests like a boss! A command line utility that supports HTTP, HTTPS, Websocket and server creation, featuring a cool interactive shell. Ideal for testing and debugging.",
-  "main": "lib/httpRequester.js",
+  "main": "lib/HttpRequester.js",
   "directories": {
     "test": "test"
   },

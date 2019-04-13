@@ -4,7 +4,8 @@
 	"path": "/toto",
 	"port": 8080,
 	"headers": {
-		"X-Powered-By": "http-requester"
+		"X-Powered-By": "http-requester" ,
+		"Content-Type": "application/json"
 	} ,
 	"body": {
 		"id": "ae7803f71",
