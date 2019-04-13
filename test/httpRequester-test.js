@@ -29,7 +29,7 @@
 
 
 
-var httpRequester = require( '../lib/httpRequester.js' ) ;
+var HttpRequester = require( '../lib/HttpRequester.js' ) ;
 
 
 
