@@ -1,6 +1,6 @@
 {
   "name": "http-requester",
-  "version": "0.13.15",
+  "version": "0.13.16",
   "engines": {
     "node": ">=4.5.0"
   },
@@ -15,13 +15,13 @@
   "dependencies": {
     "fs-kit": "^0.3.2",
     "kung-fig": "^0.51.0",
-    "server-kit": "^0.9.11",
-    "seventh": "^0.7.20",
-    "string-kit": "^0.9.3",
-    "terminal-kit": "^1.28.0",
+    "server-kit": "^0.9.18",
+    "seventh": "^0.7.30",
+    "string-kit": "^0.10.3",
+    "terminal-kit": "^1.31.7",
     "tree-kit": "^0.6.1",
-    "utterminal": "^0.5.34",
-    "ws": "^6.2.1"
+    "utterminal": "^0.5.39",
+    "ws": "^7.2.0"
   },
   "devDependencies": {},
   "scripts": {
