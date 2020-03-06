@@ -2,6 +2,13 @@
 	"server": true ,
 	"protocol": "http" ,
 	"port": 8080 ,
+	"queryParser": {
+		"brackets": true ,
+		"autoPush": true ,
+		"keyPath": true ,
+		"restQueryFilter": "filter" ,
+		"autoNumber": true
+	} ,
 	"responses": [
 		{
 			"match": {
